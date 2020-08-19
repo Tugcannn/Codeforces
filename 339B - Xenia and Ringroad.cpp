@@ -34,6 +34,7 @@ int main (){
 			  if (x > n) x = 1 ;
 			  
 			  }
+		 
 			 	 
 	 }
 	 cout << count ;
