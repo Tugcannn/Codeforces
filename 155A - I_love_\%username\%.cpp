@@ -47,6 +47,7 @@ int main (){
 				
 			}
 			y++ ;
+		    
 		}
 		cout << count ;
 	 }
