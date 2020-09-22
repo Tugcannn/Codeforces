@@ -1,0 +1,29 @@
+#include <iostream> 
+#include <cmath>
+#include <string>
+#include <bits/stdc++.h>
+#include <algorithm> 
+#include <vector >
+#include <cctype>
+#include <ctime>
+ 
+
+using namespace std ;
+ 
+    int main(){
+		 
+		 int n ;
+		 cin >> n ;
+		 string s ;
+		 cin >> s;
+	    
+		 int count = 0 ;
+		 for (int i= 0 ; i < n-1 ; i++){
+			 
+			 if (s[i] == s[i+1] ) {
+				 count ++ ;
+			}
+			}
+	 cout << count ;
+		 return 0 ;
+	}
